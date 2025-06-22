@@ -1,0 +1,146 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model files and checkpoints
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.model
+*.h5
+*.pkl
+*.pickle
+checkpoints/
+checkpoint-*/
+runs/
+outputs/
+results/
+model_outputs/
+fine_tuned_models/
+saved_models/
+
+# Large datasets
+data/
+datasets/
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.arrow
+*.feather
+*.tsv
+*.txt
+raw_data/
+processed_data/
+train_data/
+test_data/
+val_data/
+
+# Hugging Face cache
+.cache/
+~/.cache/huggingface/
+transformers_cache/
+hf_cache/
+
+# Weights & Biases
+wandb/
+.wandb/
+
+# TensorBoard logs
+logs/
+tensorboard_logs/
+tb_logs/
+
+# MLflow
+mlruns/
+mlflow_runs/
+
+# Training artifacts
+*.log
+*.out
+*.err
+slurm-*.out
+training_logs/
+evaluation_results/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# CUDA/GPU specific
+*.cu.o
+*.fatbin
+*.cubin
+
+# Profiling
+*.prof
+*.nvprof
+
+# Memory dumps
+*.dmp
+
+# Config files with sensitive data
+config.json
+secrets.json
+api_keys.txt
+*.key
+
+# Large tokenizer files (optional - uncomment if you want to exclude)
+# tokenizer.json
+# vocab.txt
+# merges.txt
